@@ -1,0 +1,50 @@
+body {
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    color: #373835;
+}
+
+.bg-image {
+    background-image: url(../img/styling/coffeeRing.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    height: 600px;
+    margin-top: -10vh;
+}
+
+.cert-card-img-top {
+    width: 15rem;
+    align-self: center;
+}
+
+.skills-card {
+    background-color: #f6f5f1;
+    max-width: 12rem;
+}
+
+.custBtn {
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 4px hsl(0, 0%, 85%);   
+}
+.navbar {
+    background-color: #fff;
+}
+
+.display-3,.display-5 {
+    font-family: 'Oleo Script', cursive;
+}
+
+.hero{
+    margin-top: 15vh;
+}
+
+#certifications {
+    margin-top: -11vh;
+}
+
+#skills {
+    margin-top: 20vh;
+}
