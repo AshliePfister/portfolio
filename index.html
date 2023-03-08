@@ -1,11 +1,431 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- style sheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;1,8..144,300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <title>Ashlie Pfister</title>
 </head>
+
+
 <body>
-    <h1>We're here!</h1>
+    <!-- top nav -->
+    <div class="container mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light border-bottom border-secondary mx-5"">
+            <div class="container-fluid">
+                <!-- nav icon -->
+                <a class="navbar-brand h-25 col-8 col-sm-6 col-md-5 col-lg-4" href="#home">
+                    <img class="img-fluid" src="img/styling/pfister.png" alt="Ashlie Pfister, rhymes with Easter">
+                </a>
+                <!-- toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- nav menu -->
+                <div class="collapse navbar-collapse flex-row-reverse pe-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-end">
+                        <li class="nav-item h5">
+                            <a class="nav-link" aria-current="page" href="#certifications">Skills & Certifications</a>
+                        </li>
+                        <li class="nav-item ps-5 h5">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item ps-5 h5">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item ps-5 h5">
+                            <a class="nav-link" href="#connect">Connect</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- hero -->
+    <div class="container-fluid">
+            <div class="hero row d-flex justify-content-center" id="home">
+                <!-- div for extra margin -->
+                <div class="col-10 mx-4 mt-lg-5 pt-5 pt-lg-5">
+                    <!-- title -->
+                    <div class="display-3">
+                        Howdy,
+                    </div>
+                    <!-- text -->
+                    <div class="pt-4 px-md-3 px-lg-5">
+                        <!-- line 1 -->
+                        <div class="">
+                            My name is <strong>Ashlie Pfister</strong>.
+                        </div>
+                        <!-- line 2 & 3 small display -->
+                        <div class="d-md-none">
+                                I am a full stack developer focused on <strong>UX</strong> and <strong>design</strong>,
+                                with experience in email marketing, company re-branding and coffee slingin'.
+                        </div>
+                        <!-- line 2 & 3 large display -->
+                        <div class="d-none d-md-inline-block ps-md-3 ps-lg-5">
+                            <div class="py-2">
+                                I am a full stack developer focused on <strong>UX</strong> and <strong>design</strong>,
+                            </div>
+                            <div class="ps-md-3 ps-lg-5">
+                                with experience in email marketing, company re-branding and coffee slingin'.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- buttons -->
+                    <div class="d-flex justify-content-evenly pt-5 d-md-inline-block px-md-4">
+                        <button type="button" class="custBtn btn btn-sm px-5 ms-md-1 ms-lg-3 me-lg-5">resume</button>
+                        <button type="button" class="custBtn btn btn-sm px-5 ms-md-5">connect</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- background image -->
+    <div class="bg-image">
+    </div>
+        
+    <!-- certifications -->
+    <div class="container-fluid" id="certifications">
+        <div class="row d-flex justify-content-center">
+            <!-- title -->
+            <div class="col-11">
+                    <div class="display-5">
+                        Certifications
+                    </div>
+                    <!-- divider -->
+                    <div class="col-4 col-md-3 col-lg-2 ms-5 pt-4 border-bottom border-secondary mb-5" id="hr">
+                    </div>
+            </div>
+        </div>
+        <!-- cards -->
+        <div class="container-fluid">
+            <div class="flex-wrap d-flex m-5 justify-content-evenly">
+                <!-- html -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="card border-0">
+                        <img src="img/certifications/mtaHTML.png" class="cert-card-img-top card-img-top" alt="Microsoft MTA HTML certification badge">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                June 2021<br>
+                                Microsoft MTA: Introduction to<br>
+                                Programming Using HTML and CSS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- javascript -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="card border-0">
+                        <img src="img/certifications/mtaJavaScript.png" class="cert-card-img-top card-img-top" alt="Microsoft MTA JavaScript certification badge">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                March 2022<br>
+                                Microsoft MTA: Introduction to Programming Using JavaScript
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- python -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="card border-0">
+                        <img src="img/certifications/mtaPython.png" class="cert-card-img-top card-img-top" alt="Microsoft MTA Python certification badge">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                June 2022<br>
+                                Microsoft MTA: Introduction to<br>
+                                Programming Using Python
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- skills -->
+    <div class="container-fluid" id="skills">
+        <div class="row d-flex justify-content-center">
+                <!-- title -->
+                <div class="col-11">
+                    <div class="display-5">
+                        Skills
+                    </div>
+                    <!-- divider -->
+                    <div class="col-4 col-md-3 col-lg-2 ms-5 pt-2 border-bottom border-secondary" id="hr">
+                    </div>
+                </div>
+        </div>
+        <!-- icons -->
+        <div class="container-fluid">
+            <div class="flex-wrap d-flex m-5 p-5 justify-content-evenly">
+                <!-- python -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/python.png" class="card-img-top " alt="Python icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Python</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- javascript -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/javascript.png" class="card-img-top " alt="JavaScript icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- html -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/html.png" class="card-img-top " alt="HTML icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">HTML</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- markdown -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/markdown.png" class="card-img-top " alt="Markdown icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Markdown</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- css -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/css.png" class="card-img-top " alt="CSS icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- c# -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/csharp.png" class="card-img-top " alt="C# icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">C#</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bootstrap -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/bootstrap.png" class="card-img-top " alt="Bootstrap icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- php -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/php.png" class="card-img-top " alt="PHP icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">PHP</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- sql -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/sql.png" class="card-img-top " alt="SQL icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">SQL</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- phpMyAdmin -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/phpmyadmin.png" class="card-img-top " alt="phpMyAdmin icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">phpMyAdmin</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- mySQL -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/mysql.png" class="card-img-top " alt="SQL icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">SQL</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- git -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/git.png" class="card-img-top " alt="Git icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Git</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- gitHub -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/github.png" class="card-img-top " alt="GitHub icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">GitHub</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- vs code -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/vscode.png" class="card-img-top " alt="VS Code icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">VS Code</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- figma -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/figma.png" class="card-img-top " alt="Figma icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Figma</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- wordpress -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/wordpress.png" class="card-img-top " alt="WordPress icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">WordPress</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- divi -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/divi.png" class="card-img-top " alt="Divi icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Divi</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- mailchimp -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/mailchimp.png" class="card-img-top " alt="Mailchimp icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Mailchimp</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- adobe creative cloud -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/creativecloud.png" class="card-img-top " alt="Adobe Creative Cloud icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Creative Cloud</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- photoshop -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/photoshop.png" class="card-img-top " alt="Photoshop icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- premiere -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/premiere.png" class="card-img-top " alt="Premiere Pro icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Premiere Pro</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- canva -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/canva.png" class="card-img-top " alt="Canva icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Canva</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- slack -->
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2">
+                    <div class="skills-card card border-0 m-2">
+                        <div class="p-3 pb-0">
+                            <img src="/img/icons/slack.png" class="card-img-top " alt="Slack icon">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text text-center">Slack</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
